@@ -44,6 +44,6 @@ function petgame(){
     }  while (i < 6);
 
     if (i == 6){
-        alert(petName + " has " + happiness + " happiness and " + energy + " energy!");
+        console.log (petName + " has " + happiness + " happiness and " + energy + " energy!");
     }
 }
